@@ -1,14 +1,14 @@
 # "Smart Shopping Cart" Application
 
-### Objective: Build an interactive E-commerce Shopping Cart App that uses React hooks, Context API, routing, Redux for state management, and conditional rendering.
+An interactive E-commerce Shopping Cart App that uses React hooks, Context API, routing, Redux for state management, and conditional rendering.
 
-# App Requirements:
+# App Details:
  
     Home Page:
         Display a list of products with their names, images, prices, and an "Add to Cart" button.
         Show a Search bar to filter products by name.
         Display a Cart Summary with the total items and total price.
-        Navigate to a Product Details page on clicking a product.
+        Navigate to a Product Details page by clicking a product.
         
     Product Details Page:
         Show detailed information about the selected product.
@@ -26,7 +26,7 @@
         Display a message confirming that the order has been placed.
         Show a "Continue Shopping" button that redirects to the Home page.
         
-# Technical Requirements
+# Technical Details:
 
     Routing (React Router):
         /: Home page with product list.
@@ -36,7 +36,7 @@
         
     State Management (Redux):
         Use Redux for managing the cart state globally.
-        Cart state should include the productId, name, price, quantity, and total price.
+        Cart state includes the productId, name, price, quantity, and total price.
         Use actions for adding to cart, updating quantity, and removing from cart.
 
     Global User Context (Context API):
